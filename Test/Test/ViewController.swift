@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         method2();
         method4();
         method5();
+        method3();
     }
 
     override func didReceiveMemoryWarning() {
@@ -31,6 +32,10 @@ class ViewController: UIViewController {
 
     func method2() {
         print("Method: 2");
+    }
+    
+    func method3() {
+        print("Method: 3");
     }
 
     func method4() {
